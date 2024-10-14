@@ -4,7 +4,7 @@ fun main() {
 
 
     println("Введите ваше число")
-    val number = readLine()!!.toIntOrNull()
+    val number = readln().toIntOrNull()
     if (number == null) {
         println("Введено некорректное значение")
     } else {

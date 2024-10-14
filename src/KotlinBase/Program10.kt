@@ -3,7 +3,7 @@ package KotlinBase
 fun main() {
 
     println("Введите ваш возраст")
-    val age = readLine()!!.toIntOrNull()
+    val age = readln().toIntOrNull()
     if (age == 0) {
         println("Введено некорректное значение")
     } else if (age in 0..12) {
